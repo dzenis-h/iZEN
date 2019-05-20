@@ -31,17 +31,14 @@ play.addEventListener("click", function() {
 });
 
 replay.addEventListener("click", function() {
-    restartSong(song);
-    
-  });
+  restartSong(song);
+});
 
-
-const restartSong = song =>{
-    let currentTime = song.currentTime;
-    song.currentTime = 0;
-    console.log("ciao")
-
-}
+const restartSong = song => {
+  let currentTime = song.currentTime;
+  song.currentTime = 0;
+  console.log("ciao");
+};
 
 timeSelect.forEach(option => {
   option.addEventListener("click", function() {
@@ -56,11 +53,11 @@ const checkPlaying = song => {
   if (song.paused) {
     song.play();
     video.play();
-    play.src = "./svg/pause.svg";
+    play.src = "../assets/svg/pause.svg";
   } else {
     song.pause();
     video.pause();
-    play.src = "./svg/play.svg";
+    play.src = "../assets/svg/play.svg";
   }
 };
 
@@ -76,7 +73,7 @@ song.ontimeupdate = function() {
   if (currentTime >= fakeDuration) {
     song.pause();
     song.currentTime = 0;
-    play.src = "./svg/play.svg";
+    play.src = "../assets/svg/play.svg";
     video.pause();
   }
 };

@@ -13,37 +13,37 @@
   <body>
     <header class="lead content mt-4 text-center text-light">
       For a lot more info about this topic, I suggest visiting my
-      <a href="assets/about/about.html" class="mb-5 lead"> INTRO</a>
+      <a href="about/about.html" class="mb-5 lead"> INTRO</a>
       to meditation page
     </header>
     <div class="app">
       <div class="vid-container">
         <video loop>
-          <source src="./video/rain.mp4" type="video/mp4" />
+          <source src="../assets/video/rain.mp4" type="video/mp4" />
         </video>
       </div>
       <div class="time-select">
         <button data-time="120" class="btn btn-info">
           <b>2</b>
-          <span id="time" class="text-warning">Minutes</span>
+          <span id="time" class="bold text-secondary">Minutes</span>
         </button>
 
         <button data-time="300" class="btn btn-info medium-mins">
           <b>5</b>
-          <span id="time" class="text text-info">Minutes</span>
+          <span id="time" class="bold text-danger">Minutes</span>
         </button>
 
         <button data-time="600" class=" btn btn-info long-mins">
           <b>10</b>
-          <span id="time" class=" text-success">Minutes</span>
+          <span id="time" class="bold text-primary">Minutes</span>
         </button>
       </div>
 
       <div class="player-container">
         <audio class="song">
-          <source src="./sounds/rain.mp3" />
+          <source src="../assets/sounds/.mp3" />
         </audio>
-        <img src="./svg/play.svg" class="play" />
+        <img src="../assets/svg/play.svg" class="play" />
         <svg
           class="track-outline"
           width="453"
@@ -76,16 +76,22 @@
             stroke-width="20"
           />
         </svg>
-        <img src="./svg/replay.svg" class="replay" />
+        <img src="../assets/svg/replay.svg" class="replay" />
         <h3 class="time-display">0:00</h3>
       </div>
 
       <div class="sound-picker">
-        <button data-sound="./sounds/rain.mp3" data-video="./video/rain.mp4">
-          <img src="./svg/rain.svg" alt="" />
+        <button
+          data-sound="../assets/sounds/rain.mp3"
+          data-video="../assets/video/rain.mp4"
+        >
+          <img src="../assets/svg/rain.svg" alt="" />
         </button>
-        <button data-sound="./sounds/beach.mp3" data-video="./video/beach.mp4">
-          <img src="./svg/beach.svg" alt="" />
+        <button
+          data-sound="../assets/sounds/beach.mp3"
+          data-video="../assets/video/beach.mp4"
+        >
+          <img src="../assets/svg/beach.svg" alt="" />
         </button>
       </div>
     </div>
