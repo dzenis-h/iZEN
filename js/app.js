@@ -2,7 +2,7 @@ const song = document.querySelector(".song");
 const play = document.querySelector(".play");
 const replay = document.querySelector(".replay");
 const outline = document.querySelector(".moving-outline circle");
-const video = document.querySelector(".video video");
+const video = document.querySelector(".vid-container video");
 //Sounds
 const sounds = document.querySelectorAll(".sound-picker button");
 //Time Display
@@ -30,11 +30,18 @@ play.addEventListener("click", function() {
   checkPlaying(song);
 });
 
-const restartSong = song => {
-  let currentTime = song.currentTime;
-  song.currentTime = 0;
-  console.log("ciao");
-};
+replay.addEventListener("click", function() {
+    restartSong(song);
+    
+  });
+
+
+const restartSong = song =>{
+    let currentTime = song.currentTime;
+    song.currentTime = 0;
+    console.log("ciao")
+
+}
 
 timeSelect.forEach(option => {
   option.addEventListener("click", function() {
@@ -73,18 +80,3 @@ song.ontimeupdate = function() {
     video.pause();
   }
 };
-
-(function() {
-  /**
-   * Video element
-   * @type {HTMLElement}
-   */
-  const video = document.getElementById("my-video");
-
-  /**
-   * Check if video can play, and play it
-   */
-  video.addEventListener("canplay", function() {
-    video.play();
-  });
-})();
