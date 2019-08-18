@@ -35,9 +35,7 @@ replay.addEventListener("click", function() {
 });
 
 const restartSong = song => {
-  let currentTime = song.currentTime;
   song.currentTime = 0;
-  console.log("ciao");
 };
 
 timeSelect.forEach(option => {

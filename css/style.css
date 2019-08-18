@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Faster+One|Special+Elite&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Special+Elite&display=swap");
 
 * {
   margin: 0;
@@ -9,7 +9,7 @@
 }
 
 .app {
-  height: 100vh;
+  height: 80vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -18,11 +18,13 @@
 
 .replay {
   padding-bottom: 7rem;
+  cursor: pointer;
 }
 
 .play {
   margin-top: 9rem;
-  margin-left: 0.7rem;
+  margin-left: .7rem;
+  cursor: pointer;
 }
 
 .time-select,
@@ -34,6 +36,7 @@
   flex-direction: column;
   flex: 1;
 }
+
 .time-select button,
 .sound-picker button {
   color: white;
@@ -67,13 +70,17 @@ a:hover {
   width: 120px;
   padding: 30px;
   border-radius: 50%;
+  cursor: pointer;
 }
+
 .sound-picker button:nth-child(1) {
   background: #4972a1;
 }
+
 .sound-picker button:nth-child(2) {
   background: #a14f49;
 }
+
 .sound-picker button img {
   height: 100%;
 }
@@ -101,15 +108,17 @@ a:hover {
   transform: translate(-50%, -50%) rotate(-90deg);
   pointer-events: none;
 }
+
 .player-container svg circle {
   transition: all 0.2s ease-in-out;
 }
+
 .time-display {
   color: teal;
   position: absolute;
   margin-top: 2rem;
   font-size: 4rem;
-  bottom: 5%;
+  bottom: 0%;
   font-family: "Special Elite", cursive;
 }
 
@@ -126,6 +135,10 @@ video {
 
 /* Smartphones */
 @media (max-width: 500px) {
+  body {
+    /* line-height: 1; */
+  }
+
   .sound-picker {
     margin-bottom: 1rem;
     margin-left: 1rem;
@@ -152,9 +165,14 @@ video {
   }
 
   img.play {
-    width: 66px;
-    margin-bottom: 2rem;
-    padding-right: 0.4rem;
+    width: 50px;
+    margin-bottom: 0;
+    padding-right: .4rem;
+  }
+
+  .replay {
+    padding-bottom: 8rem;
+    width: 12px;
   }
 
   .time-select {
