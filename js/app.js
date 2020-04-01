@@ -21,7 +21,9 @@ timeDisplay.textContent = `${Math.floor(fakeDuration / 60)}:${Math.floor(
 sounds.forEach(sound => {
   sound.addEventListener("click", function() {
     song.src = this.getAttribute("data-sound");
-    video.src = this.getAttribute("data-video");
+    video.src =
+      this.getAttribute("data-video-webm") ||
+      this.getAttribute("data-video-mp4");
     checkPlaying(song);
   });
 });
@@ -59,7 +61,7 @@ const checkPlaying = song => {
   }
 };
 
-song.ontimeupdate = function() {
+song.ontimeupdate = () => {
   let currentTime = song.currentTime;
   let elapsed = fakeDuration - currentTime;
   let seconds = Math.floor(elapsed % 60);
