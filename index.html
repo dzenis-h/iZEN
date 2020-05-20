@@ -19,8 +19,8 @@
     <div class="app">
       <div class="vid-container">
         <video loop>
-          <source src="../assets/video/rain.mp4" type="video/mp4" />
-          <source src="../assets/video/rain.webm" type="video/webm" />
+          <!-- <source src="../assets/video/rain.webm" type="video/webm" /> -->
+          <source src="../assets/video/rain-converted.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
@@ -35,7 +35,7 @@
           <span id="time" class="bold text-danger">Minutes</span>
         </button>
 
-        <button data-time="600" class=" btn btn-info long-mins">
+        <button data-time="600" class="btn btn-info long-mins">
           <b>10</b>
           <span id="time" class="bold text-default">Minutes</span>
         </button>
@@ -85,15 +85,13 @@
       <div class="sound-picker">
         <button
           data-sound="./assets/sounds/rain.mp3"
-          data-video-webm="./assets/video/rain.webm"
-          data-video-mp4="./assets/video/rain.mp4"
+          data-video="./assets/video/rain-converted.mp4"
         >
           <img src="./assets/svg/rain.svg" alt="Rain sound" />
         </button>
         <button
           data-sound="./assets/sounds/beach.mp3"
-          data-video-webm="./assets/video/beach.webm"
-          data-video-mp4="./assets/video/beach.mp4"
+          data-video="./assets/video/beach-converted.mp4"
         >
           <img src="./assets/svg/beach.svg" alt="Ocean sound" />
         </button>

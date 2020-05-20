@@ -18,30 +18,28 @@ timeDisplay.textContent = `${Math.floor(fakeDuration / 60)}:${Math.floor(
   fakeDuration % 60
 )}`;
 
-sounds.forEach(sound => {
-  sound.addEventListener("click", function() {
+sounds.forEach((sound) => {
+  sound.addEventListener("click", function () {
     song.src = this.getAttribute("data-sound");
-    video.src =
-      this.getAttribute("data-video-webm") ||
-      this.getAttribute("data-video-mp4");
+    video.src = this.getAttribute("data-video");
     checkPlaying(song);
   });
 });
 
-play.addEventListener("click", function() {
+play.addEventListener("click", function () {
   checkPlaying(song);
 });
 
-replay.addEventListener("click", function() {
+replay.addEventListener("click", function () {
   restartSong(song);
 });
 
-const restartSong = song => {
+const restartSong = (song) => {
   song.currentTime = 0;
 };
 
-timeSelect.forEach(option => {
-  option.addEventListener("click", function() {
+timeSelect.forEach((option) => {
+  option.addEventListener("click", function () {
     fakeDuration = this.getAttribute("data-time");
     timeDisplay.textContent = `${Math.floor(fakeDuration / 60)}:${Math.floor(
       fakeDuration % 60
@@ -49,17 +47,39 @@ timeSelect.forEach(option => {
   });
 });
 
-const checkPlaying = song => {
-  if (song.paused) {
-    song.play();
-    video.play();
-    play.src = "../assets/svg/pause.svg";
-  } else {
-    song.pause();
-    video.pause();
-    play.src = "../assets/svg/play.svg";
+const checkPlaying = (song) => {
+  const playPromise = video.play();
+  if (playPromise !== undefined) {
+    playPromise
+      .then((_) => {
+        if (song.paused) {
+          song.play();
+          video.play(); // <-- This is asynchronous!
+          play.src = "../assets/svg/pause.svg";
+        } else {
+          playPromise.then((_) => {
+            song.pause();
+            video.pause();
+            play.src = "../assets/svg/play.svg";
+          });
+        }
+      })
+      .catch((error) => {
+        console.log(error);
+      });
   }
 };
+// const checkPlaying = (song) => {
+//   if (song.paused) {
+//     song.play();
+//     video.play();
+//     play.src = "../assets/svg/pause.svg";
+//   } else {
+//     song.pause();
+//     video.pause();
+//     play.src = "../assets/svg/play.svg";
+//   }
+// };
 
 song.ontimeupdate = () => {
   let currentTime = song.currentTime;

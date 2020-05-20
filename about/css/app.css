@@ -1,36 +1,133 @@
-body, p, h1, h2, h3, h4, h5, h6, li { font-family: 'Lora', serif; }
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li {
+  font-family: "Lora", serif;
+}
 
-h2 { font-size: 1.8rem; }
-h2 a {color: #333;}
+h2 {
+  font-size: 1.8rem;
+}
+h2 a {
+  color: #333;
+}
 
-h3 {font-size: 1.4rem; margin-top: 2rem;}
+h3 {
+  font-size: 1.4rem;
+  margin-top: 2rem;
+}
 
-h4 { font-size: 1.25rem; font-weight: 700; color: #333; margin-top: 1.6rem;}
+h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #333;
+  margin-top: 1.6rem;
+}
 
-p, li { font-size: 1.25rem; color: #333; }
+p,
+li {
+  font-size: 1.25rem;
+  color: #333;
+}
 
-p {line-height: 1.938rem}
+p {
+  line-height: 1.938rem;
+}
 
-li { margin-top: 0.3rem; }
+li {
+  margin-top: 0.3rem;
+}
 
-div.intro { margin-top: 1rem; }
-div.intro h1 { font-size: 2.4rem; line-height: 1.2; margin-top: 1rem; margin-bottom: 1rem;}
-div.intro h2 { font-size: 1.8rem; line-height: 1.4; color: #666; }
+div.intro {
+  margin-top: 1rem;
+}
+div.intro h1 {
+  font-size: 2.4rem;
+  line-height: 1.2;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+div.intro h2 {
+  font-size: 1.8rem;
+  line-height: 1.4;
+  color: #666;
+}
 
-div.toc h2 {}
-div.toc ul li a {color:#333;}
+div.toc h2 {
+}
+div.toc ul li a {
+  color: #333;
+}
 
-div.footer { margin-top: 4rem; margin-bottom: 1rem; }
-div.footer p { font-style: italic; margin-top: 0; margin-bottom: 0.2rem;}
+div.footer {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+div.footer p {
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 0.2rem;
+}
 
-@media screen
-  and (min-width: 800px) {
-    div.intro h1 { font-size: 3.6rem; line-height: 1.1}
-    div.intro h2 { font-size: 2.4rem; line-height: 1.4; color: #666; }
-    h2 {font-size: 2.5rem;}
-    h3 {font-size: 1.9375rem}
-    div.intro {margin-top: 4rem; margin-bottom: 2rem;}
-    div.more {padding-left: 6rem; padding-top: 8rem;}
-    div.more p {font-size: 1rem; font-style: italic; padding-top: 1rem; line-height: 1.25;}
-    hr { margin: 3rem auto;}
+div.footer p:last-child {
+  margin-bottom: 2rem;
+}
+
+hr {
+  margin: 0rem auto;
+  border: 1px solid darkred;
+}
+
+div.footer > hr {
+  margin-bottom: 1.5rem;
+}
+
+.diff-color {
+  color: teal;
+  text-shadow: 1px 0px 2px #666;
+}
+
+.plus {
+  color: rgb(190, 64, 64);
+  text-shadow: 1px 0px 2px #666;
+}
+
+@media screen and (min-width: 800px) {
+  div.intro h1 {
+    font-size: 3.6rem;
+    line-height: 1.1;
+  }
+  div.intro h2 {
+    font-size: 2.4rem;
+    line-height: 1.4;
+    color: #666;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 1.9375rem;
+  }
+  div.intro {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+  div.more {
+    padding-left: 6rem;
+    padding-top: 8rem;
+  }
+  div.more p {
+    font-size: 1rem;
+    font-style: italic;
+    padding-top: 1rem;
+    line-height: 1.25;
+  }
+  hr {
+    margin: 3rem auto;
+  }
 }
