@@ -4,8 +4,38 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: teal;
+  color: rgb(160, 16, 112);
   font-family: "Courier New", Courier, monospace;
+}
+button:focus {
+  outline: 0;
+}
+
+header {
+  color: #ffffff;
+  text-shadow: 2px 2px 3px #000;
+  font-size: larger;
+}
+
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+video::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.6;
+  background: rgba(0, 0, 0, 0.55);
+  box-shadow: inset 0 0 5em 2em #000;
 }
 
 .app {
@@ -115,7 +145,6 @@ a:hover {
 }
 
 .time-display {
-  color: teal;
   position: absolute;
   margin-top: 2rem;
   font-size: 4rem;
@@ -160,7 +189,6 @@ video {
   .time-display {
     top: 70%;
     font-size: 2rem;
-
   }
 
   img.play {
