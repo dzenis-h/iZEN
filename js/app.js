@@ -55,12 +55,12 @@ const checkPlaying = (song) => {
         if (song.paused) {
           song.play();
           video.play(); // <-- This is asynchronous!
-          play.src = "../assets/svg/pause.svg";
+          play.src = "./assets/svg/pause.svg";
         } else {
           playPromise.then((_) => {
             song.pause();
             video.pause();
-            play.src = "../assets/svg/play.svg";
+            play.src = "./assets/svg/play.svg";
           });
         }
       })
@@ -82,7 +82,7 @@ song.ontimeupdate = () => {
   if (currentTime >= fakeDuration) {
     song.pause();
     song.currentTime = 0;
-    play.src = "../assets/svg/play.svg";
+    play.src = "./assets/svg/play.svg";
     video.pause();
   }
 };
