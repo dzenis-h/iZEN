@@ -1,7 +1,43 @@
 > ## iZEN 🙏
 
->#### Motivation:
->I was looking for a solid and simple meditation app. I've looked around, got bored and then inspired so I created iZEN. -It's a app that's still in a major development, still fully functional and kinda useful and in addition to that it also contains a `HTML` route (page) to a nice meditation how-to guide. 
+Sure! Here is a sample README.md file for the iZEN repository:
 
->#### Instructions:
->After cloning it, use something like a `LiveServer` to start the `index.html` correctly :)
+```
+# iZEN
+
+iZEN is a simple and solid meditation app that is still in major development. It is fully functional and contains a HTML route to a nice meditation how-to guide.
+
+## Installation
+
+To install iZEN, follow these steps:
+
+1. Clone the repository.
+2. Use something like LiveServer to start index.html correctly.
+
+## Usage
+
+To use iZEN, follow these steps:
+
+1. Open index.html in your browser.
+2. Choose your preferred meditation session.
+3. Follow the instructions provided.
+
+## Contributing
+
+Contributions are always welcome! If you would like to contribute to iZEN, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch.
+3. Make your changes and test them thoroughly.
+4. Submit a pull request.
+
+## Credits
+
+iZEN was created by Dzenis H.
+
+## License
+
+iZEN is licensed under the MIT license. See LICENSE for more information.
+```
+
+I hope this helps!
