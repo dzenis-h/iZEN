@@ -12,7 +12,7 @@ iZEN is a solid and simple meditation app that helps you relax and focus. It's s
 | --- | --- | --- |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML5 logo" width="100" height="100" align="center"> | [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) | A markup language for structuring and presenting content on the web. |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS3 logo" width="100" height="100" align="center"> | [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS) | A style sheet language for describing the appearance and formatting of web pages. |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="JavaScript logo" width="100" height="100" align="center"> | [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) | A scripting language for creating dynamic and interactive web pages. |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="JavaScript logo" width="75" height="75" align="center"> | [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) | A scripting language for creating dynamic and interactive web pages. |
 
 ## Installation 📥
 
