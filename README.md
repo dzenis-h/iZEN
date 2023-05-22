@@ -1,4 +1,4 @@
-Okay, I have fixed the license link. Here is the updated version of the ReadMe.md file:
+Okay, I have replaced the screenshot link with the one you provided. Here is the updated version of the ReadMe.md file:
 
 # iZEN 🧘
 
@@ -44,8 +44,8 @@ iZEN was created by [Dzenis H](https://www.dzenis.tech).
 
 ## License 📄
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://docs.google.com/document/d/11WK7tVoTFRMcWCuGZQCRWxEsDUEJ_6ArtfV-NjWcBCU/edit?usp=sharing) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](https://docs.google.com/document/d/11WK7tVoTFRMcWCuGZQCRWxEsDUEJ_6ArtfV-NjWcBCU/edit?usp=sharing){:target="_blank"} file for details.
 
 ## Screenshot 📸
 
-![Screenshot of iZEN app](https://drive.google.com/file/d/1xdbrusaGoPISBQ_g2fn6qjzyClo2m7NU/view?usp=sharing)
+![Screenshot of iZEN app](https://drive.google.com/file/d/1xdbrusaGoPISBQ_g2fn6qjzyClo2m7NU/view?usp=share_link)
