@@ -48,4 +48,4 @@ This project is licensed under the MIT License - see the [LICENSE](https://docs.
 
 ## Screenshot 📸
 
-![Screenshot of iZEN app](https://drive.google.com/file/d/1xdbrusaGoPISBQ_g2fn6qjzyClo2m7NU/view?usp=share_link)
+![Screenshot of iZEN app](https://drive.google.com/file/d/1xdbrusaGoPISBQ_g2fn6qjzyClo2m7NU/view?usp=sharing)
