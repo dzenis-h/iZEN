@@ -1,4 +1,4 @@
-Okay, I have replaced the screenshot link with the one you provided. Here is the updated version of the ReadMe.md file:
+Sure, I can make the entire ReadMe.md file using what I have learned and fixed. Here is the final version of the ReadMe.md file:
 
 # iZEN 🧘
 
@@ -10,9 +10,9 @@ iZEN is a solid and simple meditation app that helps you relax and focus. It's s
 
 | Logo | Name | Description |
 | --- | --- | --- |
-| ![HTML5 logo](https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg) | [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) | A markup language for structuring and presenting content on the web. |
-| ![CSS3 logo](https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg) | [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS) | A style sheet language for describing the appearance and formatting of web pages. |
-| ![JavaScript logo](https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg) | [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) | A scripting language for creating dynamic and interactive web pages. |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML5 logo" width="100" height="100" align="center"> | [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) | A markup language for structuring and presenting content on the web. |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS3 logo" width="100" height="100" align="center"> | [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS) | A style sheet language for describing the appearance and formatting of web pages. |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="JavaScript logo" width="100" height="100" align="center"> | [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) | A scripting language for creating dynamic and interactive web pages. |
 
 ## Installation 📥
 
@@ -44,7 +44,7 @@ iZEN was created by [Dzenis H](https://www.dzenis.tech).
 
 ## License 📄
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://docs.google.com/document/d/11WK7tVoTFRMcWCuGZQCRWxEsDUEJ_6ArtfV-NjWcBCU/edit?usp=sharing){:target="_blank"} file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://docs.google.com/document/d/11WK7tVoTFRMcWCuGZQCRWxEsDUEJ_6ArtfV-NjWcBCU/edit?usp=sharing) file for details.
 
 ## Screenshot 📸
 
