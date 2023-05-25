@@ -1,5 +1,4 @@
-Sure, I can make the entire ReadMe.md file using what I have learned and fixed. Here is the final version of the ReadMe.md file:
-
+##
 # iZEN 🧘
 
 ## About 📝
